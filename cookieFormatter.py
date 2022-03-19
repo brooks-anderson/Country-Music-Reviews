@@ -2,9 +2,7 @@
 """
 19 Mar 22
 
-cookieFormatter()
-
-
+Function defition for cookieFormatter()
 """
 
 def cookieFormatter():
