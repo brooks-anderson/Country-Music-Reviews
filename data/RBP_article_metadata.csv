@@ -1,5 +1,5 @@
 id,title,author,source,date,subjects
-100,Brenda Lee — Only Fifteen but They Want Her for Hollywood,June Harris,Disc,28 May 1960,['brenda-lee']
+100,Brenda Lee â€” Only Fifteen but They Want Her for Hollywood,June Harris,Disc,28 May 1960,['brenda-lee']
 101,"The Greenbriar Boys, Bob Dylan: Gerde's Folk City, New York NY",Robert Shelton,The New York Times,29 September 1961,"['bob-dylan', 'greenbriar-boys-the']"
 102,Durable Formula for Grand Ole Opry,Robert Shelton,The New York Times,26 November 1961,"['earl-scruggs', 'hank-williams', 'uncle-dave-macon', 'jim-reeves', 'bill-anderson', 'lester-flatt', 'ernest-tubb']"
 103,"Johnny Cash, Maybelle Carter, George Jones, Mac Wiseman, the Glaser Brothers: Carnegie Hall, New York NY",Robert Shelton,The New York Times,11 May 1962,"['johnny-cash', 'george-jones', 'mac-wiseman', 'tompall--the-glaser-brothers', 'maybelle-carter']"
@@ -24,7 +24,7 @@ id,title,author,source,date,subjects
 202,Roger Miller & Little Jimmy Dickens: A Happy Thing Happened On Our Way To Hullabaloo,Jane Heil,Hit Parader,April 1966,"['bobby-bare', 'roger-miller', 'little-jimmy-dickens']"
 203,"""Recording Sessions I Have Known"" by Charlie McCoy",Jim Delehant,Hit Parader,May 1966,"['bob-dylan', 'elvis-presley', 'foggy-mountain-boys', 'charlie-mccoy']"
 204,Jim Reeves: Kimberley Jim (RCA Victor),Peter Jones,Record Mirror,14 May 1966,['jim-reeves']
-205,Johnny Cash — The C&W Legend Also Beloved By Rockers,Richard Green,Record Mirror,21 May 1966,['johnny-cash']
+205,Johnny Cash â€” The C&W Legend Also Beloved By Rockers,Richard Green,Record Mirror,21 May 1966,['johnny-cash']
 206,Roger Miller: A Punny Man,Pete Johnson,Los Angeles Times,2 July 1966,['roger-miller']
 207,Jim Reeves: Jim's First Number One,Alan Smith,New Musical Express,23 September 1966,['jim-reeves']
 208,Mary Reeves Tells Alan Smith About Jim's Greatest Tribute,Alan Smith,New Musical Express,18 February 1967,['jim-reeves']
@@ -32,21 +32,21 @@ id,title,author,source,date,subjects
 210,"Flatt & Scruggs, Hearts & Flowers: Troubadour, Los Angeles CA",Tracy Thomas,New Musical Express,26 February 1967,"['earl-scruggs', 'lester-flatt', 'hearts--flowers']"
 211,"LP Reviews: Sam & Dave, James Brown, Chet Atkins, and the Mothers of Invention",uncredited writer,Beat Instrumental,April 1967,"['chet-atkins', 'james-brown', 'mothers-of-invention-the', 'sam--dave']"
 212,"New Albums From The Doors, Roy Orbison, Sonny & Cher et al","Peter Jones, Norman Jopling",Record Mirror,22 April 1967,"['james-brown', 'petula-clark', 'doors-the', 'lonnie-mack', 'roy-orbison', 'sonny--cher', 'joe-tex', 'mckinley-soul-mitchell']"
-213,Charley Pride — America's Coloured Cowboy,John Abbey,Record Mirror,5 August 1967,['charley-pride']
+213,Charley Pride â€” America's Coloured Cowboy,John Abbey,Record Mirror,5 August 1967,['charley-pride']
 214,Bobbie Gentry Reveals Message Behind 'Ode',uncredited writer,KRLA Beat,26 August 1967,['bobbie-gentry']
-215,Bobbie — On The Tallahatchee Bridge To Fame,Alan Walsh,Melody Maker,21 October 1967,['bobbie-gentry']
+215,Bobbie â€” On The Tallahatchee Bridge To Fame,Alan Walsh,Melody Maker,21 October 1967,['bobbie-gentry']
 216,Linda Leading Stone Poneys To Gold Water,Tony Leigh,KRLA Beat,30 December 1967,['stone-poneys-the']
 217,"Buck Owens: Carousel Ballroom, San Francisco CA",Philip Elwood,The San Francisco Examiner,11 March 1968,['buck-owens']
 218,Sydney Nathan Dead,uncredited writer,Record World,16 March 1968,[]
 219,"Albums from Blue Cheer, Bobbie Gentry and the Human Beinz",uncredited writer,KRLA Beat,23 March 1968,"['blue-cheer', 'bobbie-gentry', 'human-beinz-the']"
 300,"The Byrds, Penny Nichols: Troubadour, Los Angeles CA",Pete Johnson,Los Angeles Times,27 April 1968,"['byrds-the', 'penny-nichols']"
 301,"Before 'Honey' I Had Almost Given Up Hope, Says Bobby Goldsboro",Richard Green,New Musical Express,4 May 1968,['bobby-goldsboro']
-302,'Dylan — He's The Best Songwriter Around Now...' said Johnny Cash,Norman Jopling,Record Mirror,11 May 1968,['johnny-cash']
+302,'Dylan â€” He's The Best Songwriter Around Now...' said Johnny Cash,Norman Jopling,Record Mirror,11 May 1968,['johnny-cash']
 303,"The Byrds: Middle Earth, London",Norman Jopling,Record Mirror,18 May 1968,"['byrds-the', 'gram-parsons']"
 304,The Changing Face of the Byrds,uncredited writer,Melody Maker,25 May 1968,['byrds-the']
 305,"Flatt & Scruggs: hungry i, San Francisco CA",Philip Elwood,The San Francisco Examiner,2 July 1968,"['earl-scruggs', 'lester-flatt']"
 306,Merle Haggard: Home-fried Humor and Cowboy Soul,Al Aronowitz,Rolling Stone,10 August 1968,['merle-haggard']
-307,"Country, Cabaret, and Rock — It's The New Look Jerry Lee Lewis",Alan Walsh,Melody Maker,17 August 1968,['jerry-lee-lewis']
+307,"Country, Cabaret, and Rock â€” It's The New Look Jerry Lee Lewis",Alan Walsh,Melody Maker,17 August 1968,['jerry-lee-lewis']
 308,"Country albums from the Byrds, Loretta Lynn, Kitty Wells et al",uncredited writer,Disc and Music Echo,12 October 1968,"['byrds-the', 'loretta-lynn', 'conway-twitty', 'bill-anderson', 'kitty-wells', 'jan-howard', 'jack-greene', 'ernest-tubb']"
 309,Johnny Cash: Johnny Cash at Folsom Prison (CBS 63308),Geoffrey Cannon,The Guardian,12 November 1968,['johnny-cash']
 310,Jeannie C. Riley: A Wild Jeannie,Alan Smith,New Musical Express,30 November 1968,['jeannie-c-riley']
@@ -66,11 +66,11 @@ id,title,author,source,date,subjects
 406,Burritos and Byrds: A talk with Gram Parsons and Chris Hillman,uncredited writer,Helix,4 September 1969,"['byrds-the', 'flying-burrito-brothers']"
 407,"Albert King, Poco, the Chambers Brothers: The Pavilion, Flushing Meadows, Queens NY",Danny Goldberg,Billboard,6 September 1969,"['chambers-brothers-the', 'albert-king', 'poco']"
 408,Doors' Soft Parade leads US underground LP releases,uncredited writer,Record Mirror,13 September 1969,"['doors-the', 'fugs-the', 'groundhogs-the', 'lightnin-hopkins', 'gordon-lightfoot', 'loretta-lynn', 'gene-pitney', 'sir-douglas-quintet-the', 'stooges-the', 'elmer-gantrys-velvet-opera', 'juniors-eyes', 'floating-bridge', 'high-tide']"
-409,"Doc Watson, Paul Geremia, David Bromberg: Gaslight Café, New York NY",Danny Goldberg,Billboard,27 September 1969,"['david-bromberg', 'doc-watson', 'paul-geremia']"
+409,"Doc Watson, Paul Geremia, David Bromberg: Gaslight CafÃ©, New York NY",Danny Goldberg,Billboard,27 September 1969,"['david-bromberg', 'doc-watson', 'paul-geremia']"
 410,Jerry Lee Lewis: Sings The Country Music Hall Of Fame Hits Vol. 1 and 2 (Mercury),Richard Green,New Musical Express,11 October 1969,['jerry-lee-lewis']
 411,John D. Loudermilk,Gene Guerrero,The Great Speckled Bird,20 October 1969,['john-d-loudermilk']
 412,"The Byrds: Thelma's, Los Angeles CA",John Mendelssohn,Los Angeles Times,25 November 1969,['byrds-the']
-413,Area Code 615: Now — Funky Country!,Richard Williams,Melody Maker,29 November 1969,['area-code-615']
+413,Area Code 615: Now â€” Funky Country!,Richard Williams,Melody Maker,29 November 1969,['area-code-615']
 414,Cody's Airmen On the Way Up,Philip Elwood,The San Francisco Examiner,15 December 1969,['commander-cody']
 415,"Sons of Champlin, Country Joe & the Fish, Area Code 615: Fillmore West, San Francisco CA",Philip Elwood,The San Francisco Examiner,13 February 1970,"['area-code-615', 'country-joe--the-fish', 'sons-of-champlin-the']"
 417,Visual Scene Important For Kenny Rogers: The First Edition,uncredited writer,Beat Instrumental,March 1970,['kenny-rogers']
@@ -138,7 +138,7 @@ id,title,author,source,date,subjects
 719,Rick Nelson: Has it Really Been 2 Years Since Garden Party?,Arthur Levy,Zoo World,11 October 1973,['rick-nelson']
 800,The Nudie Look,Chris Charlesworth,Melody Maker,27 October 1973,[]
 801,"Tanya Tucker: Delta Dawn, What's Your Mama's Name (Columbia)",Ken Barnes,Phonograph Record,November 1973,['tanya-tucker']
-802,Conway Twitty & Loretta Lynn: Louisiana Woman – Mississippi Man; Merle Haggard: I Love Dixie Blues...,John Morthland,Creem,November 1973,"['merle-haggard', 'loretta-lynn', 'conway-twitty']"
+802,Conway Twitty & Loretta Lynn: Louisiana Woman â€“ Mississippi Man; Merle Haggard: I Love Dixie Blues...,John Morthland,Creem,November 1973,"['merle-haggard', 'loretta-lynn', 'conway-twitty']"
 803,Linda Ronstadt: Don't Cry Now (Asylum),Michael Watts,Melody Maker,10 November 1973,['linda-ronstadt']
 804,Chet Atkins: Country Gent,Chris Charlesworth,Melody Maker,24 November 1973,['chet-atkins']
 805,Tanya Tucker: Jail Bait on Parade,Gary Kenton,Creem,January 1974,['tanya-tucker']
@@ -160,7 +160,7 @@ id,title,author,source,date,subjects
 901,Willie Nelson: The Emperor of Austin,Joe Nick Patoski,Zoo World,18 July 1974,['willie-nelson']
 902,"Souther-Hillman-Furay Band, Danny O'Keefe: Civic Auditorium, Santa Monica CA",Richard Cromelin,Los Angeles Times,2 September 1974,"['souther-hillman-furay-band-the', 'danny-okeefe']"
 903,Scott Walker: We Had It All,Fred Dellar,New Musical Express,21 September 1974,['scott-walker']
-904,Dolly Parton: The — travails of dualism,Nick Tosches,The Village Voice,26 September 1974,['dolly-parton']
+904,Dolly Parton: The â€” travails of dualism,Nick Tosches,The Village Voice,26 September 1974,['dolly-parton']
 905,Chilli Willi & The Red Hot Peppers: Bongos Over Balham (Mooncrest Crest 21),Phil Hardy,Let It Rock,December 1974,['chilli-willi--the-red-hot-peppers']
 906,Earl Scruggs Adds & Subtracts,Robert Duncan,Creem,December 1974,['earl-scruggs']
 907,Billy Swan: Swan Song,Michael Watts,Melody Maker,7 December 1974,['billy-swan']
@@ -178,7 +178,7 @@ id,title,author,source,date,subjects
 919,"Charlie Rich: Hilton Hotel, Las Vegas",Steven Rosen,Sounds,24 May 1975,['charlie-rich']
 1000,"Waylon Jennings, Jessi Colter: Civic Auditorium, Santa Monica CA",Stephen K. Peeples,Cash Box,31 May 1975,"['waylon-jennings', 'jessi-colter']"
 1001,"The Eagles, Dan Fogelberg: Academy of Music, New York NY",Toby Goldstein,Billboard,31 May 1975,"['eagles-the', 'dan-fogelberg']"
-1002,The Eagles: California Dreamin’,Tom Nolan,Phonograph Record,June 1975,['eagles-the']
+1002,The Eagles: California Dreaminâ€™,Tom Nolan,Phonograph Record,June 1975,['eagles-the']
 1003,Olivia Newton-John: Have You Never Been Mellow (EMI EMC 3069) (36.00),Geoff Barton,Sounds,7 June 1975,['olivia-newton-john']
 1004,"Jerry Jeff Walker & the Lost Gonzo Band: Palomino, Los Angeles CA",Stephen K. Peeples,Cash Box,5 July 1975,['jerry-jeff-walker']
 1005,Waylon Jennings: Ramblin' Man,Stephen K. Peeples,Cash Box,12 July 1975,['waylon-jennings']
@@ -195,7 +195,7 @@ id,title,author,source,date,subjects
 1016,Tanya Tucker: Country Girl,Rob Partridge,Melody Maker,1 November 1975,['tanya-tucker']
 1017,"Emmylou Harris: New Victoria, London",Penny Valentine,Street Life,29 November 1975,['emmylou-harris']
 1018,The Ozark Mountain Daredevils: Kansas City Stars,Todd Everett,Phonograph Record,December 1975,['ozark-mountain-daredevils']
-1019,Linda Ronstadt: 'Heat Wave' – The Long Hot Sessions,Todd Everett,Rolling Stone,18 December 1975,['linda-ronstadt']
+1019,Linda Ronstadt: 'Heat Wave' â€“ The Long Hot Sessions,Todd Everett,Rolling Stone,18 December 1975,['linda-ronstadt']
 1100,Emmylou Harris: Elite Hotel (Reprise MS2236),Todd Everett,Phonograph Record,January 1976,['emmylou-harris']
 1101,"Buck Owens & the Buckaroos, Susan Raye: Royal Albert Hall, London",Jonh Ingham,Sounds,24 January 1976,"['buck-owens', 'susan-raye']"
 1102,The Soulful Return Of Gene Clark,Mick Brown,Sounds,24 January 1976,['gene-clark']
@@ -225,7 +225,7 @@ id,title,author,source,date,subjects
 1206,Chet Atkins and Les Paul: Chester And Lester (RCA),Mick Farren,New Musical Express,5 February 1977,"['chet-atkins', 'les-paul']"
 1207,The Eagles: One Of These Nightmares,Barbara Charone,Crawdaddy!,April 1977,['eagles-the']
 1208,"The Texas Playboys, Asleep at the Wheel: Panther Hall, Fort Worth, Texas",John Morthland,Rolling Stone,7 April 1977,"['asleep-at-the-wheel', 'bob-wills--his-texas-playboys']"
-1209,The Unfulfilled Career of Linda Hargrove…,Martin Hawkins,Country Music Review,June 1977,['linda-hargrove']
+1209,The Unfulfilled Career of Linda Hargroveâ€¦,Martin Hawkins,Country Music Review,June 1977,['linda-hargrove']
 1210,Crystal Gayle: She's more than a little sister,Philip Elwood,The San Francisco Examiner,17 September 1977,['crystal-gayle']
 1211,Don Williams: Country Boy (ABC),Colin Irwin,Melody Maker,15 October 1977,['don-williams']
 1212,"Kenny Rogers, Crystal Gayle: National Stadium, Dublin",Barry Cain,Record Mirror,12 November 1977,"['kenny-rogers', 'crystal-gayle']"
@@ -240,12 +240,12 @@ id,title,author,source,date,subjects
 1301,Hot times in the heart of Texxas,Joe Nick Patoski,Rolling Stone,24 August 1978,"['aerosmith', 'heart', 'waylon-jennings', 'mahogany-rush', 'willie-nelson', 'ted-nugent']"
 1302,"Tammy Wynette: Hammersmith Odeon, London",Colin Irwin,Melody Maker,16 September 1978,['tammy-wynette']
 1303,"Rick Nelson: High Sierra Theater at the Sahara, Lake Tahoe",Joel Selvin,San Francisco Chronicle,7 October 1978,['rick-nelson']
-1304,"Interview: Carl Perkins, October 31, 1978 at the Bijou Café, Philadelphia, Pa.",Peter Stone Brown,unpublished,31 October 1978,['carl-perkins']
+1304,"Interview: Carl Perkins, October 31, 1978 at the Bijou CafÃ©, Philadelphia, Pa.",Peter Stone Brown,unpublished,31 October 1978,['carl-perkins']
 1305,Dolly Parton: Confessions of a Power Crazed Wig-Model,Colin Irwin,Melody Maker,11 November 1978,['dolly-parton']
 1306,"Dolly Parton: Hammersmith Odeon, London",Mick Brown,The Guardian,21 November 1978,['dolly-parton']
 1307,Butch Hancock,Richard Wootton,Omaha Rainbow,Spring 1978,"['flatlanders-the', 'butch-hancock']"
 1309,"Linda Ronstadt: The Forum, Inglewood CA",Stephen K. Peeples,L.A. Weekly,4 January 1979,['linda-ronstadt']
-1310,Tanya Tucker: TNT (MCA MCG 3530) ****½,Sandy Robertson,Sounds,17 February 1979,['tanya-tucker']
+1310,Tanya Tucker: TNT (MCA MCG 3530) ****Â½,Sandy Robertson,Sounds,17 February 1979,['tanya-tucker']
 1311,Tanya Tucker: Yet Another Excuse To Print A Picture Of A Young Girl With A Guitar,Sandy Robertson,Sounds,17 March 1979,['tanya-tucker']
 1312,Wembley Country Festival: The Metropolitan Soap Opera,Mary Harron,Melody Maker,28 April 1979,"['sleepy-labeef', 'tammy-wynette', 'dottsy', 'hank-locklin', 'freddie-hart']"
 1313,"Loretta Lynn: We've Come A Long Way, Baby (MCA MCF 2881); Conway Twitty: Conway (MCA MCF 2878)",Simon Frith,Melody Maker,19 May 1979,"['loretta-lynn', 'conway-twitty']"
@@ -259,7 +259,7 @@ id,title,author,source,date,subjects
 1401,George Jones: My Very Special Guests (Epic),Max Bell,New Musical Express,5 January 1980,['george-jones']
 1402,Jerry Lee Lewis: Killer's Gospel,Mick Brown,The Guardian,16 February 1980,['jerry-lee-lewis']
 1403,"Merle Haggard: The Country Club, Reseda CA",Mark Leviton,BAM,18 April 1980,['merle-haggard']
-1404,"Various artists — Marlboro Country Festival: Wembley Arena, London",Fred Dellar,New Musical Express,19 April 1980,"['commander-cody', 'phil-everly', 'emmylou-harris', 'bellamy-brothers-the', 'joe-sun']"
+1404,"Various artists â€” Marlboro Country Festival: Wembley Arena, London",Fred Dellar,New Musical Express,19 April 1980,"['commander-cody', 'phil-everly', 'emmylou-harris', 'bellamy-brothers-the', 'joe-sun']"
 1405,Emmylou Harris Buys Back the Farm,Steven X Rea,High Fidelity,August 1980,['emmylou-harris']
 1406,Bobby Bare's Down and Dirty Country,John Morthland,Rolling Stone,7 August 1980,['bobby-bare']
 1407,Rodney Crowell: A Songwriter Surfaces,Fred Schruers,Rolling Stone,21 August 1980,['rodney-crowell']
@@ -287,7 +287,7 @@ id,title,author,source,date,subjects
 1510,"Dolly Parton: Dominion Theatre, London",Mary Harron,The Guardian,29 March 1983,['dolly-parton']
 1511,"Tammy Wynette: Wembley Conference Centre, London",Don Watson,New Musical Express,16 April 1983,"['matchbox', 'tammy-wynette']"
 1512,"Waylon Jennings: Hammersmith Odeon, London",Barney Hoskyns,New Musical Express,29 October 1983,['waylon-jennings']
-1513,Unsung Heroes of Rock 'n' Roll: Wanda Jackson — Unlaced By The Lord,Nick Tosches,Creem,February 1984,['wanda-jackson']
+1513,Unsung Heroes of Rock 'n' Roll: Wanda Jackson â€” Unlaced By The Lord,Nick Tosches,Creem,February 1984,['wanda-jackson']
 1514,"Pogues, Boothill Foot Tappers: Mean Fiddler, Harlesden",Colin Irwin,Melody Maker,4 August 1984,"['pogues-the', 'boothill-foot-tappers-the']"
 1515,Neil Young,Jim Sullivan,The Boston Globe,6 September 1984,['neil-young']
 1516,Dwight Yoakam: Local Yoakam,Bill Bentley,L.A. Weekly,22 November 1984,['dwight-yoakam']
@@ -333,17 +333,17 @@ id,title,author,source,date,subjects
 1717,k.d. lang: Shadowland (Sire WX17LP/Cass/CD),Mark Cooper,Q,June 1988,['kd-lang']
 1718,Johnny Cash: A Little Farther... Down The Line,J. Kordosh,Creem,June 1988,['johnny-cash']
 1719,Producer Pete Anderson Leads Calif.'s Gold Rush,Holly Gleason,Billboard,16 July 1988,"['michelle-shocked', 'dwight-yoakam', 'rosie-flores', 'george-highfill']"
-1800,Dwight Yoakam: Buenas Noches From A Lonely Room (Reprise 925 749-1/CD) ****½,Paul Elliott,Sounds,6 August 1988,['dwight-yoakam']
+1800,Dwight Yoakam: Buenas Noches From A Lonely Room (Reprise 925 749-1/CD) ****Â½,Paul Elliott,Sounds,6 August 1988,['dwight-yoakam']
 1801,Merle Haggard: Long Gone Train,Holly Gleason,Spin,September 1988,['merle-haggard']
-1802,Drawling — Dwight Yoakam: Buenas Noches From A Lonely Room (Reprise WX 193 LP/Cass/CD),David Sinclair,Q,September 1988,['dwight-yoakam']
+1802,Drawling â€” Dwight Yoakam: Buenas Noches From A Lonely Room (Reprise WX 193 LP/Cass/CD),David Sinclair,Q,September 1988,['dwight-yoakam']
 1803,Hank Williams Jr: Wild Streak (WEA 925 725-1/CD)***,Ralph Traitor,Sounds,1 October 1988,['hank-williams-jr']
 1804,K.T. Oslin: This Woman (RCA LP/Cassette/CD),Michele Kirsch,New Musical Express,17 December 1988,['kt-oslin']
-1805,Steve Earle: Copperhead Road (Uni) *** ½,Rob Tannenbaum,Rolling Stone,26 January 1989,['steve-earle']
+1805,Steve Earle: Copperhead Road (Uni) *** Â½,Rob Tannenbaum,Rolling Stone,26 January 1989,['steve-earle']
 1806,Lyle Lovett: Lyle Lovett and His Large Band (MCA/Curb) ****,Holly Gleason,Rolling Stone,9 February 1989,['lyle-lovett']
 1807,The Judds: Kentucky dreamers,Adam Sweeting,The Guardian,10 February 1989,['judds-the']
 1808,Cowboy troubadour: Ian Tyson is riding high again,Nicholas Jennings,Maclean's,13 February 1989,['ian-tyson']
 1809,"The Judds: Dominion, London",Michele Kirsch,New Musical Express,18 February 1989,['judds-the']
-1810,Guy Clark: Old Friends (Sugar Hill) ***½,Holly Gleason,Rolling Stone,9 March 1989,['guy-clark']
+1810,Guy Clark: Old Friends (Sugar Hill) ***Â½,Holly Gleason,Rolling Stone,9 March 1989,['guy-clark']
 1811,Buck Owens: Myths of the honky-tonker,David Toop,The Times,25 March 1989,['buck-owens']
 1812,"Cowboy Junkies: Royal Festival Hall, London",Adam Sweeting,The Guardian,27 March 1989,['cowboy-junkies']
 1813,"Lucinda Williams: Mean Fiddler, London",Mark Cooper,The Guardian,5 May 1989,['lucinda-williams']
@@ -352,7 +352,7 @@ id,title,author,source,date,subjects
 1816,Dolly Parton: White Limozeen (CBS),Caroline Sullivan,Melody Maker,29 July 1989,['dolly-parton']
 1817,"Randy Travis, K.T. Oslin: Universal Amphitheatre, Los Angeles CA",Richard Cromelin,Los Angeles Times,10 August 1989,"['randy-travis', 'kt-oslin']"
 1818,"George Jones, Loretta Lynn: Merriweather Post Pavilion, Baltimore MA",Geoffrey Himes,"Evening Sun (Baltimore), The ",14 August 1989,"['george-jones', 'loretta-lynn']"
-1819,Clint Black: Killin' Time (MCA) ***½,Holly Gleason,Rolling Stone,24 August 1989,['clint-black']
+1819,Clint Black: Killin' Time (MCA) ***Â½,Holly Gleason,Rolling Stone,24 August 1989,['clint-black']
 1900,The Flatlanders: More a Legend Than a Band,Colin Escott,Rhino Records,1990,['flatlanders-the']
 1901,Butch Hancock: Own & Own (Demon LP/Cassette/CD),Michele Kirsch,New Musical Express,6 January 1990,['butch-hancock']
 1902,"k.d. lang: Painters Mill Music Fair, Owings Mills MD",Geoffrey Himes,"Evening Sun (Baltimore), The ",15 February 1990,['kd-lang']
@@ -369,7 +369,7 @@ id,title,author,source,date,subjects
 1913,Johnny Cash: Pills'n'Thrills And Bellyaches,Mark Cooper,Q,June 1991,['johnny-cash']
 1914,Kentucky Headhunters: Hard-Rock Hoedown,John Swenson,Rolling Stone,19 September 1991,['kentucky-headhunters']
 1915,Garth Brooks: Ropin' the Wind (Capitol CDESTU 2162),David Sinclair,The Times,5 February 1992,['garth-brooks']
-1916,k.d. lang: Ingénue (WEA 26840),Max Bell,Vox,April 1992,['kd-lang']
+1916,k.d. lang: IngÃ©nue (WEA 26840),Max Bell,Vox,April 1992,['kd-lang']
 1917,Country's New Gold Rush,Rob Tannenbaum,Rolling Stone,16 April 1992,['garth-brooks']
 1918,Building Better Bridges: Charlie Rich in jazz country,Alan di Perna,Musician,May 1992,['charlie-rich']
 1919,"Lyle Lovett: Roxy, Los Angeles CA",Richard Cromelin,Los Angeles Times,14 May 1992,['lyle-lovett']
@@ -404,7 +404,7 @@ id,title,author,source,date,subjects
 2108,"Johnny Cash: Shepherd's Bush Empire, London",Caroline Sullivan,The Guardian,4 July 1994,['johnny-cash']
 2109,"Dan Penn, Allen Toussaint, Guy Clark, Joe South, Vic Chesnutt: Southern Songwriters' Circle, Queen Elizabeth Hall, London",Paul Sexton,The Times,27 July 1994,"['vic-chesnutt', 'guy-clark', 'dan-penn', 'joe-south', 'allen-toussaint']"
 2110,Lyle Lovett: The World's Greatest Lover,Mal Peachey,Country Music International,September 1994,['lyle-lovett']
-2111,Cool Cash — The Man in Black's Latest Risk Pays Off,Joel Selvin,San Francisco Chronicle,25 September 1994,['johnny-cash']
+2111,Cool Cash â€” The Man in Black's Latest Risk Pays Off,Joel Selvin,San Francisco Chronicle,25 September 1994,['johnny-cash']
 2112,Vince Gill: Dedicated to Just Plain Foik,Richard Cromelin,Los Angeles Times,25 September 1994,['vince-gill']
 2113,Mary Chapin Carpenter: Stones in the Road (Columbia),Eric Weisbard,Spin,December 1994,['mary-chapin-carpenter']
 2114,"Junior Brown: The Mercury Lounge, New York NY",John Swenson,Rolling Stone,1 December 1994,['junior-brown']
@@ -414,7 +414,7 @@ id,title,author,source,date,subjects
 2118,Alison Krauss: A Hit From One of Country's Kinfolk,Richard Cromelin,Los Angeles Times,25 March 1995,['alison-krauss']
 2119,Linda Ronstadt: Feels Like Home (Elektra; CD and cassette),Holly Gleason,The New York Times,9 April 1995,['linda-ronstadt']
 2200,Pop Quiz: Q & A with Merle Haggard,Joel Selvin,San Francisco Chronicle,9 April 1995,['merle-haggard']
-2201,Jerry Lee Lewis: Young Blood (Sire) ***½,Ted Drozdowski,Rolling Stone,13 July 1995,['jerry-lee-lewis']
+2201,Jerry Lee Lewis: Young Blood (Sire) ***Â½,Ted Drozdowski,Rolling Stone,13 July 1995,['jerry-lee-lewis']
 2202,Shania Twain: Country Princess,Nicholas Jennings,Maclean's,28 August 1995,['shania-twain']
 2203,"Trisha Yearwood, Collin Raye: Universal Amphitheatre, Los Angeles CA",Richard Cromelin,Los Angeles Times,28 August 1995,"['trisha-yearwood', 'collin-raye']"
 2204,"Charlie Rich, 1932-1995",Charlie Gillett,MOJO,September 1995,['charlie-rich']
@@ -457,7 +457,7 @@ id,title,author,source,date,subjects
 2401,Tammy Wynette: First Lady Of Country,Fred Dellar,MOJO,June 1998,['tammy-wynette']
 2402,Shania Twain,David Quantick,Q,July 1998,['shania-twain']
 2403,Lucinda Williams: Lost in America,RJ Smith,Spin,July 1998,['lucinda-williams']
-2404,Gram Parsons: The Good Ol’ Boy,Barney Hoskyns,MOJO,July 1998,['gram-parsons']
+2404,Gram Parsons: The Good Olâ€™ Boy,Barney Hoskyns,MOJO,July 1998,['gram-parsons']
 2405,Gillian Welch: Raising Cain,RJ Smith,The Village Voice,11 August 1998,['gillian-welch']
 2406,Lucinda Williams: Car Wheels On A Gravel Road (Mercury 558 318-2),Johnny Black,Q,September 1998,['lucinda-williams']
 2407,Back to Clinch Mountain: Ralph Stanley,Geoffrey Himes,Country Music,September 1998,['ralph-stanley']
@@ -478,7 +478,7 @@ id,title,author,source,date,subjects
 2502,Dixie Chicks: Fly; Shedaisy: The Whole Shebang,Eric Weisbard,The Village Voice,15 September 1999,"['dixie-chicks-the', 'shedaisy']"
 2503,Shelby Lynne: I Am Shelby Lynne (Mercury),Tom Cox,The Guardian,24 September 1999,['shelby-lynne']
 2504,"Shelby Lynne: Embassy Rooms, London ****",Lucy O'Brien,The Guardian,27 October 1999,['shelby-lynne']
-2505,Sally Timms: Cowboy Sally’s Twilight Laments ... for Lost Buckaroos,Eric Weisbard,The Village Voice,17 November 1999,['sally-timms']
+2505,Sally Timms: Cowboy Sallyâ€™s Twilight Laments ... for Lost Buckaroos,Eric Weisbard,The Village Voice,17 November 1999,['sally-timms']
 2506,Dolly Parton,j. poet,Stereotype,2000,['dolly-parton']
 2507,Glen Campbell,David Bennun,The Guardian,2000,['glen-campbell']
 2508,Fiddling While the Old Barriers Burn,Tony Scherman,The New York Times,2 April 2000,['mark-oconnor']
@@ -541,24 +541,24 @@ id,title,author,source,date,subjects
 2805,Pete Drake,"Phil Hardy, Dave Laing",'Faber Companion to 20th Century Popular Music',2001,['pete-drake']
 2806,"Laura Cantrell: Vulnerable, minimalist Manhattan country",Colin Irwin,MOJO,March 2001,['laura-cantrell']
 2807,An Exclusive Interview with Bob Johnston,Richard Younger,On the Tracks,March 2001,['bob-dylan']
-2808,Country Music is Not Pretty: A User’s Guide to Robbie Fulks,Martin Colyer,Rock's Backpages,24 March 2001,['robbie-fulks']
+2808,Country Music is Not Pretty: A Userâ€™s Guide to Robbie Fulks,Martin Colyer,Rock's Backpages,24 March 2001,['robbie-fulks']
 2809,Alison Krauss + Union Station: New Favorite,Sid Griffin,MOJO,September 2001,['alison-krauss']
 2811,Willie Nelson: The Great Divide,Pat Blashill,Rolling Stone,8 January 2002,['willie-nelson']
 2812,"Waylon Jennings, 1937-2002",Dave Laing,The Guardian,15 February 2002,['waylon-jennings']
 2813,Carla Bozulich: Cafe Club Fais Do-Do,Marc Weingarten,Los Angeles Times,3 April 2002,"['willie-nelson', 'carla-bozulich']"
-2814,Willie Nelson’s Straight Story,Peter Murphy,Hot Press,23 July 2002,['willie-nelson']
+2814,Willie Nelsonâ€™s Straight Story,Peter Murphy,Hot Press,23 July 2002,['willie-nelson']
 2815,Let Me Touch You For A While: Alison Krauss Creates Intimacy Amongst the Disenfranchised,Holly Gleason,Rock's Backpages,16 September 2002,['alison-krauss']
 2816,Steve Earle: The Dissent Of Man,Andy Gill,The Independent,20 September 2002,['steve-earle']
 2817,"Nickel Creek: Memorial Hall, Sheffield",Dave Simpson,The Guardian,23 October 2002,['nickel-creek']
 2818,"Dolly Parton: Bridgewater Hall, Manchester",Lisa Verrico,The Times,16 November 2002,['dolly-parton']
-2819,Up! Is A Direction: Shania Twain’s New CD(s),Rick McGrath,Culture Court,December 2002,['shania-twain']
+2819,Up! Is A Direction: Shania Twainâ€™s New CD(s),Rick McGrath,Culture Court,December 2002,['shania-twain']
 2900,Dwight Yoakam: Reprise Please Baby: The Warner Bros. Years,John Morthland,No Depression,31 December 2002,['dwight-yoakam']
 2901,A Circle Still Unbroken: Doc Watson and the Nitty Gritty Dirt Band,Peter Stone Brown,Gadfly,Spring 2002,"['nitty-gritty-dirt-band-the', 'doc-watson', 'roy-acuff', 'merle-travis']"
 2902,Willie Nelson: Stars & Guitars,Max Bell,Uncut,January 2003,['willie-nelson']
 2903,Alison Krauss + Union Station: Live,Rob Hughes,Uncut,February 2003,['alison-krauss']
 2904,"Johnny Paycheck, 1938-2003",Tony Russell,The Guardian,3 March 2003,['johnny-paycheck']
 2905,Rosanne Cash: Rosanne's Rules,j. poet,Paste,15 June 2003,['rosanne-cash']
-2906,Honky-Tonk Grande Dame: Loretta Lynn And Jack White On Country’s Favorite Daughter,Fred Mills,Detroit Metro Times,25 June 2003,"['loretta-lynn', 'white-stripes-the']"
+2906,Honky-Tonk Grande Dame: Loretta Lynn And Jack White On Countryâ€™s Favorite Daughter,Fred Mills,Detroit Metro Times,25 June 2003,"['loretta-lynn', 'white-stripes-the']"
 2907,"June Carter Cash, 1929-2003",Sylvie Simmons,MOJO,July 2003,['june-carter-cash']
 2908,Gillian Welch: The Girl With No Name,Toby Manning,The Word,August 2003,['gillian-welch']
 2909,Gillian Welch: A Kind Of Bluegrass,Rob Hughes,Uncut,September 2003,['gillian-welch']
@@ -572,7 +572,7 @@ id,title,author,source,date,subjects
 2917,Willie Nelson At 70,Gene Santoro,'Highway 61 Revisited...',2004,['willie-nelson']
 2918,Johnny Cash at San Quentin was my idea,Geoffrey Cannon,unpublished,2004,['johnny-cash']
 2919,Mother's Pride: Various: Just Because I'm A Woman: Songs Of Dolly Parton ****,Phil Sutcliffe,MOJO,January 2004,['dolly-parton']
-3000,The Last Great American — Johnny Cash: Unearthed (American),Mark Cooper,The Word,January 2004,['johnny-cash']
+3000,The Last Great American â€” Johnny Cash: Unearthed (American),Mark Cooper,The Word,January 2004,['johnny-cash']
 3001,Legends of Songwriting: Harlan Howard,Bill DeMain,Performing Songwriter,January 2004,['harlan-howard']
 3002,Johnny Cash: Unearthed (American Recordings/Lost Highway),Jon Wilde,Uncut,January 2004,['johnny-cash']
 3003,June Carter Cash: Wildwood Flower,Rob Hughes,Uncut,January 2004,['june-carter-cash']
@@ -584,7 +584,7 @@ id,title,author,source,date,subjects
 3009,Johnny Cash: Life,Andy Gill,Uncut,May 2004,['johnny-cash']
 3010,Loretta Lynn: Van Lear Rose,Rob Hughes,Uncut,June 2004,"['loretta-lynn', 'jack-white']"
 3011,Parsons Lives in Film: Grand Theft opens in theaters tomorrow,Jason Cohen,Rolling Stone,17 June 2004,['gram-parsons']
-3012,Various Artists: Stay All Night – Buddy Holly's Country Roots,Joe Nick Patoski,West Texas Roots,July 2004,['buddy-holly']
+3012,Various Artists: Stay All Night â€“ Buddy Holly's Country Roots,Joe Nick Patoski,West Texas Roots,July 2004,['buddy-holly']
 3013,"Burrito Deluxe: Borderline, London",Adam Sweeting,The Guardian,16 July 2004,['burrito-deluxe']
 3014,"Gretchen Wilson: ""I'm a redneck and proud of it""",Adam Sweeting,Daily Telegraph,21 August 2004,['gretchen-wilson']
 3015,Uncle Dave Macon: Keep My Skillet Good And Greasy (Bear Family),Tony Russell,Maverick,September 2004,['uncle-dave-macon']
@@ -606,7 +606,7 @@ id,title,author,source,date,subjects
 3112,Neil Young: Rebel without a pause,Robert Sandall,The Sunday Times,30 October 2005,['neil-young']
 3113,The Beau Brummels: Bradley's Barn,Jon Savage,MOJO,November 2005,['beau-brummels-the']
 3114,"Neil Young: Ryman Auditorium, Nashville",Sylvie Simmons,MOJO,November 2005,['neil-young']
-3115,Taylor Swift: Taylor Swift (Big Machine) **** ½,Jeff Tamarkin,AllMusic.com,2006,['taylor-swift']
+3115,Taylor Swift: Taylor Swift (Big Machine) **** Â½,Jeff Tamarkin,AllMusic.com,2006,['taylor-swift']
 3116,Rosanne Cash:  Black Cadillac (Capitol),Mark Mordue,Neumu,January 2006,['rosanne-cash']
 3117,Rosanne Cash: Family Ties,Simon Garfield,The Observer,5 February 2006,['rosanne-cash']
 3118,"James Talley: Got No Bread, No Milk, No Money, But We Sure Got A Lot Of Love",John Morthland,No Depression,28 February 2006,['james-talley']
@@ -633,8 +633,8 @@ id,title,author,source,date,subjects
 3300,"Lyle Lovett/Joe Ely/Guy Clark/John Hiatt: State Theatre, Cleveland",Holly Gleason,No Depression,30 April 2007,"['guy-clark', 'joe-ely', 'john-hiatt', 'lyle-lovett']"
 3301,Emmylou Harris on Songbird,Alan Light,MSN.com,August 2007,['emmylou-harris']
 3302,Lori McKenna: Dreams of an Everyday Housewife,Holly Gleason,No Depression,31 August 2007,['lori-mckenna']
-3303,The Flying Burrito Brothers: Gram Parsons Archives Vol 1 – Flying Burrito Brothers Live At The Avalon 1969,Bud Scoppa,Uncut,September 2007,['flying-burrito-brothers']
-3304,Emmylou Harris: Songbird – Rare Tracks and Forgotten Gems (Rhino),Kandia Crazy Horse,San Francisco Bay Guardian,3 October 2007,['emmylou-harris']
+3303,The Flying Burrito Brothers: Gram Parsons Archives Vol 1 â€“ Flying Burrito Brothers Live At The Avalon 1969,Bud Scoppa,Uncut,September 2007,['flying-burrito-brothers']
+3304,Emmylou Harris: Songbird â€“ Rare Tracks and Forgotten Gems (Rhino),Kandia Crazy Horse,San Francisco Bay Guardian,3 October 2007,['emmylou-harris']
 3305,Country's Soul: The Music Of The Late Arthur Alexander Still Provides A Living Link Between Hillbilly Twang And R&B,Geoffrey Himes,Baltimore City Paper,31 October 2007,['arthur-alexander']
 3306,Robert Plant and Alison Krauss: Raising Sand,Kate Mossman,The Word,November 2007,['robert-plant-and-alison-krauss']
 3307,"The Eagles: Indigo2, London",Adam Sweeting,Daily Telegraph,1 November 2007,['eagles-the']
@@ -645,16 +645,16 @@ id,title,author,source,date,subjects
 3313,Carrie Underwood/Miranda Lambert: Blonde Ambition,Geoffrey Himes,Nashville Scene,24 January 2008,"['miranda-lambert', 'carrie-underwood']"
 3314,"Daydream Believer: John Stewart, 1939-2008",Michael Simmons,Huffington Post,21 February 2008,['john-stewart']
 3315,"John Anderson: Just Came Home To Count The Memories/All The People Are Talkin'/Eye Of A Hurricane/Tokyo, Oklahoma/Countrified",John Morthland,No Depression,29 February 2008,['john-anderson']
-3316,Dolly Parton: Backwoods Barbie **½,Mark Kemp,Rolling Stone Online,6 March 2008,['dolly-parton']
+3316,Dolly Parton: Backwoods Barbie **Â½,Mark Kemp,Rolling Stone Online,6 March 2008,['dolly-parton']
 3317,Willie Nelson: One Hell Of A Ride,John Morthland,No Depression,30 April 2008,['willie-nelson']
 3318,"Warmth, Wonder and Wisdom: Dolly Parton, O2 Arena, London",Jude Rogers,New Statesman,17 July 2008,['dolly-parton']
 3319,George Jones: The Grand Tour,Andrew Mueller,Uncut,October 2008,['george-jones']
 3400,Go your own way: Hank Williams and his progeny,Angus Batey,The Guardian,24 October 2008,"['hank-williams', 'hank-williams-jr', 'hank-williams-iii']"
 3401,Lucinda Williams: Little Honey (Lost Highway),Graeme Thomson,The Word,November 2008,['lucinda-williams']
 3402,J.D. Souther comes back,Bill Holdship,Detroit Metro Times,5 November 2008,['j-d-souther']
-3403,Meet… John Wheeler,John Lewis,Hotline,January 2009,['hayseed-dixie']
+3403,Meetâ€¦ John Wheeler,John Lewis,Hotline,January 2009,['hayseed-dixie']
 3404,Lucinda Williams: Album By Album,Andrew Mueller,Uncut,January 2009,['lucinda-williams']
-3405,Clover: The Sound City Sessions – 1975,Terry Staunton,Record Collector,February 2009,['clover']
+3405,Clover: The Sound City Sessions â€“ 1975,Terry Staunton,Record Collector,February 2009,['clover']
 3406,Chris Darrow's Kaleidoscopic Vision,Michael Simmons,L.A. Weekly,25 February 2009,"['kaleidoscope', 'chris-darrow']"
 3407,The Louvin Brothers,Andrew Mueller,Uncut,March 2009,['louvin-brothers-the']
 3408,Ernest R Stoneman: The Unsung Father Of Country Music 1925-1934,Tony Burke,Blues & Rhythm,March 2009,['ernest-stoneman']
@@ -664,11 +664,11 @@ id,title,author,source,date,subjects
 3412,"The Eagles: NIA, Birmingham",Stephen Dalton,The Times,July 2009,['eagles-the']
 3413,Out of the blue: Neil Young's archives,Kandia Crazy Horse,San Francisco Bay Guardian,7 July 2009,['neil-young']
 3414,Alison Krauss: An Interview,Paul Sexton,Daily Telegraph,22 July 2009,['alison-krauss']
-3415,The Jayhawks: Music From The North Country – The Jayhawks Anthology,Rob Hughes,Uncut,September 2009,['jayhawks-the']
+3415,The Jayhawks: Music From The North Country â€“ The Jayhawks Anthology,Rob Hughes,Uncut,September 2009,['jayhawks-the']
 3416,Monsters of Folk: Monsters Of Folk,Bud Scoppa,Uncut,October 2009,['monsters-of-folk']
 3417,"Taylor Swift: Wembley Arena, London",Kate Mossman,The Word,10 February 2010,['taylor-swift']
 3418,In the Whispering Pines,Kandia Crazy Horse,San Francisco Bay Guardian,25 February 2010,"['valerie-june', 'whispering-pines']"
-3419,Various Artists: Gastonia Gallop – Cotton Mill Songs & Hillbilly Blues,Tony Burke,Blues & Rhythm,March 2010,[]
+3419,Various Artists: Gastonia Gallop â€“ Cotton Mill Songs & Hillbilly Blues,Tony Burke,Blues & Rhythm,March 2010,[]
 3500,Stephen Stills,Rob Hughes,Record Collector,March 2010,['stephen-stills']
 3501,New band of the week: Lady Antebellum,Paul Lester,The Guardian,17 March 2010,['lady-antebellum']
 3502,Wanda Jackson: You Know I'm So Good!,Rob Hughes,Uncut,April 2010,['wanda-jackson']
@@ -743,7 +743,7 @@ id,title,author,source,date,subjects
 3811,Matraca Berg: The Daughter of Music Row,Holly Gleason,Oxford American,22 January 2014,['matraca-berg']
 3812,Kacey Musgraves: A Whole New Trailer Park,Geoffrey Himes,Nashville Scene,23 January 2014,['kacey-musgraves']
 3813,Sheryl Crow,David Burke,R2/Rock'n'Reel,March 2014,['sheryl-crow']
-3814,Béla Fleck and Abigail Washburn,Bill DeYoung,Connect Savannah,April 2014,"['bla-fleck', 'abigail-washburn']"
+3814,BÃ©la Fleck and Abigail Washburn,Bill DeYoung,Connect Savannah,April 2014,"['bla-fleck', 'abigail-washburn']"
 3815,Nickel Creek: A Dotted Line,Holly Gleason,Paste,1 April 2014,['nickel-creek']
 3816,"Country music's gay stars: ""We're still kicking down the closet door""",Graeme Thomson,The Guardian,10 April 2014,"['chely-wright', 'lavender-country']"
 3817,Don Felder Surprised at Ex-Eagles Mates' Ill Will Toward Him,Bob Ruggiero,Houston Press,16 May 2014,"['eagles-the', 'don-felder']"
@@ -785,21 +785,22 @@ id,title,author,source,date,subjects
 4015,Dolly Parton,David Burke,Country Music Legends,Summer 2017,['dolly-parton']
 4016,Kylie Minogue: Golden,Nick Hasted,The Independent,5 April 2018,['kylie-minogue']
 4017,The Byrds' Sweetheart Of The Rodeo at 50,Harvey Kubernik,Rock's Backpages,June 2018,"['byrds-the', 'chris-hillman', 'roger-mcguinn', 'gram-parsons']"
-4018,"""Country Music … Was Anything BUT Pure"": An Interview with Bill Malone and Tracey Laird",Will Hermes,Longreads,4 June 2018,[]
+4018,"""Country Music â€¦ Was Anything BUT Pure"": An Interview with Bill Malone and Tracey Laird",Will Hermes,Longreads,4 June 2018,[]
 4019,"D.J. Fontana, 1931-2018",Tony Burke,Record Collector,August 2018,['elvis-presley']
 4100,"In concert, Daniels doesn't mix politics with music",Jim Sullivan,Cape Cod Times,16 August 2018,"['charlie-daniels', 'bob-dylan']"
 4101,Beasts of Bourbon's Spencer P Jones: hellraiser among Australian rock greats,Andrew Stafford,The Guardian,23 August 2018,['beasts-of-bourbon-the']
-4102,How Auto-Tune Revolutionized the Sound of Popular Music,Simon Reynolds,Pitchfork,17 September 2018,"['cher', 'bon-iver', 'jay-z', 'kesha', 'britney-spears', 'kanye-west', 'migos', 't-pain', 'travis-scott']"
+4102,How Auto-Tune Revolutionized the Sound of PopularÂ Music,Simon Reynolds,Pitchfork,17 September 2018,"['cher', 'bon-iver', 'jay-z', 'kesha', 'britney-spears', 'kanye-west', 'migos', 't-pain', 'travis-scott']"
 4103,"Shania Twain: SSE Hydro, Glasgow",Graeme Thomson,Mail On Sunday,29 September 2018,['shania-twain']
 4104,Kacey Musgraves: Bristol Hippodrome,Jude Rogers,The Guardian,24 October 2018,['kacey-musgraves']
 4105,"(No) AMF, Boyd Elder: Texas ""Artlaw"" Dead at 74",Stephen K. Peeples,stephenkpeeples.com,30 October 2018,"['eagles-the', 'bobby-fuller-four-the-']"
 4106,Why country music is cool: the rise of Ward Thomas and the Wandering Hearts,Lisa Verrico,The Sunday Times,4 November 2018,"['ward-thomas', 'wandering-hearts-the']"
-4107,"Take The Music Seriously: An Interview with Peter Guralnick, 20th August, 2009",Maud Berthomier,'Encore Plus De Bruit' (Éditions Tristram),2019,"['buddy-guy', 'elvis-presley', 'charlie-rich']"
-4108,Various Artists: Texas Hillbillies – 1922-1937 Restored and Remastered,Tony Burke,Blues & Rhythm,April 2019,[]
+4107,"Take The Music Seriously: An Interview with Peter Guralnick, 20th August, 2009",Maud Berthomier,'Encore Plus De Bruit' (Ã‰ditions Tristram),2019,"['buddy-guy', 'elvis-presley', 'charlie-rich']"
+4108,Various Artists: Texas Hillbillies â€“ 1922-1937 Restored and Remastered,Tony Burke,Blues & Rhythm,April 2019,[]
 4109,"Fred Foster, 1931-2019",Tony Burke,Record Collector,May 2019,"['roy-orbison', 'joe-simon', 'roscoe-shelton']"
 4110,Guy Clark's Triumphant Last Act,Mitchell Cohen,Music Aficionado,July 2019,['guy-clark']
 4111,Gene Clark: No Other,Kieron Tyler,The Arts Desk,3 November 2019,['gene-clark']
 4112,Various Artists: The Rough Guide To Country Blues/The Rough Guide To The Roots Of Country Music,Tony Burke,Vintage Jazz Mart,Fall 2019,[]
 4113,Johnny Cash: Jail House Rock,Alan Light,MOJO,February 2020,['johnny-cash']
 4114,"Billy Joe Shaver, 1939-2020",Geoffrey Himes,Paste,29 October 2020,['billy-joe-shaver']
-4115,Peter Guralnick Gets Lost in Profiles of Musical Giants,Bob Ruggiero,Houston Press,3 December 2020,"['chuck-berry', 'fats-domino', 'jerry-lee-lewis', 'little-richard', 'lonnie-mack']"
+4115,Classic Rockers Firefall Drop First New Record in Two Decades,Bob Ruggiero,Houston Press,30 November 2020,"['firefall', 'gram-parsons']"
+4116,Peter Guralnick Gets Lost in Profiles of Musical Giants,Bob Ruggiero,Houston Press,3 December 2020,"['chuck-berry', 'fats-domino', 'jerry-lee-lewis', 'little-richard', 'lonnie-mack']"

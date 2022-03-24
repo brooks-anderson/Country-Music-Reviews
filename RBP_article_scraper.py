@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-19 March 22
+18 March 22
 
 Webscaping script to collect music review articles. Requires RBP_search_metadata.csv
 produced from RBP_search_scraper.py
@@ -9,8 +9,6 @@ produced from RBP_search_scraper.py
 # modules    
 import requests
 import re
-import time
-import random
 import sys
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -61,7 +59,7 @@ for i in range(len(links)):
     
     article_id = links.iloc[i].id
     
-    soup = BeautifulSoup(page.content, "html.parser")
+    soup = BeautifulSoup(page.content, "html.parser", from_encoding='utf-8')
     
     title = soup.find(id="content") \
                 .find("h1", class_="article") \
@@ -110,5 +108,5 @@ for i in range(len(links)):
     
     
 metadata = pd.DataFrame(meta_dict)
-metadata.to_csv('./data/RBP_article_metadata.csv', encoding = "cp1252", index = False)    
+metadata.to_csv('./data/RBP_article_metadata.csv', encoding = "utf-8", index = False)    
     

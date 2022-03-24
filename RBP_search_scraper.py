@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 '''
-19 March 22
+23 March 22
 
-Webscraping script for rocksbackpage.com search result metadata
+Webscraping script for article metadata
 '''
 
 # modules    
@@ -50,8 +50,12 @@ def metaStripper(search_response):
     metadata = {}
     
     # create Beautiful Soup obj from Response obj
-    soup = BeautifulSoup(search_response.content, "html.parser" )
-    articles = soup.find(id = "content").find_all("div", class_="article-listing")
+    soup = BeautifulSoup(search_response.content, \
+                         "html.parser", \
+                         from_encoding="utf-8")
+    
+    articles = soup.find(id = "content") \
+                   .find_all("div", class_="article-listing")
     
     # list of second paragraphs
     p2 = [x.find_all('p')[1] for x in articles]
@@ -93,7 +97,11 @@ def metaStripper(search_response):
 s = requests.Session()
 
 # first page of search results
-SearchURL = "https://www-rocksbackpages-com.proxy01.its.virginia.edu/Library/SearchResults?SearchText=&YearFrom=1900&YearTo=2022&SubjectId=85&WriterId=0&PublicationId=0&PieceTypeId=0&ArticleType=Text&OrderBy=PublishedDate&PageNumber=1&NewSearch=True&IsAcademicGroupMember=True"
+SearchURL = "https://www-rocksbackpages-com.proxy01.its.virginia.edu/Library/" \
+            +"SearchResults?SearchText=&YearFrom=1900&YearTo=2022&SubjectId=" \
+            +"85&WriterId=0&PublicationId=0&PieceTypeId=0&ArticleType=Text&" \
+            +"OrderBy=PublishedDate&PageNumber=1&NewSearch=True&" \
+            +"IsAcademicGroupMember=True"
 
 #requires user to paste cookies into console
 cookies = cookieFormatter()
@@ -114,24 +122,28 @@ num_pages = int(re.search(page_num_pat, page_els)[0])
 # Collect MetaData for all search results
 
 search_dict = {"id":[],
-               "html":[],
-               "href":[],
                "title":[],
                "author":[],
                "journal":[],
                "type":[],
-               "date":[]}
+               "date":[],
+               "href":[],
+               "html":[]}
 
 for i in range(1,num_pages+1):
-    SearchURLs = "https://www-rocksbackpages-com.proxy01.its.virginia.edu/Library/SearchResults?SearchText=&YearFrom=1900&YearTo=2022&SubjectId=85&WriterId=0&PublicationId=0&PieceTypeId=0&ArticleType=Text&OrderBy=PublishedDate&PageNumber="\
-                    +str(i)\
+    SearchURLs = "https://www-rocksbackpages-com.proxy01.its.virginia.edu/" \
+                    +"Library/SearchResults?SearchText=&YearFrom=1900&" \
+                    +"YearTo=2022&SubjectId=85&WriterId=0&PublicationId=0&" \
+                    +"PieceTypeId=0&ArticleType=Text&OrderBy=PublishedDate&" \
+                    +"PageNumber=" + str(i)\
                     +"&NewSearch=True&IsAcademicGroupMember=True"
 
     
     SearchPages = s.get(SearchURLs, cookies = cookies)
     metadata_dict = metaStripper(SearchPages)
    
-    search_dict['id'] += [((i*100)+x) for x in range(len(metadata_dict['links']))]
+    search_dict['id'] += [((i*100)+x) for x in \
+                          range(len(metadata_dict['links']))]
     search_dict['html'] += metadata_dict['raw']
     search_dict['href'] += metadata_dict['links']
     search_dict['title'] += metadata_dict['titles']
@@ -144,4 +156,6 @@ for i in range(1,num_pages+1):
     
 search_metadata_df = pd.DataFrame(search_dict)
 
-search_metadata_df.to_csv("./data/RBP_search_metadata.csv", index = False)
+search_metadata_df.to_csv("./data/RBP_search_metadata.csv", \
+                          index = False, \
+                          encoding = "utf-8")
