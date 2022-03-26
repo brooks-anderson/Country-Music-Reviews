@@ -2,7 +2,7 @@
 """
 March 25, 2022
 
-Class Definition for RBPScraper
+Class Definition for rbpScraper
 """
 import requests
 import re
@@ -108,9 +108,14 @@ class RBPScraper():
         # check if sub directories exist, if not create
         if not os.path.isdir(self.path+"html/"):
             os.makedirs(os.path.join(self.path, 'html/'))
-        if not os.path.isdir(self.path+"txt/"):
-            os.makedirs(os.path.join(self.path, 'txt/'))
+        # if not os.path.isdir(self.path+"txt/"):
+        #     os.makedirs(os.path.join(self.path, 'txt/'))
          
+        prefix_pat = r"^(.*)(?:/Library)"
+        prefix_url = re.search(prefix_pat, self.url)[1]
+        
+        s = requests.Session()
+
         print("Retrieving articles...")
         count = 0
         numIter = len(self.__searchMeta)
@@ -120,10 +125,10 @@ class RBPScraper():
                     'source':[],
                     'date':[],
                     'subjects':[]}
-        
+            
         for i in self.__searchMeta.index:
             try:
-                meta_dict = self.__collectArticleMeta(i)
+                meta_dict = self.__collectArticleMeta(i, prefix_url, s)
             except AttributeError:
                 print(f"article {i} not found.\n")
                 continue
@@ -135,7 +140,7 @@ class RBPScraper():
             LIB_dict['date'].append(meta_dict['date'])
             LIB_dict['subjects'].append(meta_dict['subjects'])
         
-            self.__saveArticle(i)
+            self.__saveArticle(i, prefix_url, s)
             
             # print progress
             count += 1
@@ -144,9 +149,9 @@ class RBPScraper():
             
         
         LIB_pd = pd.DataFrame(LIB_dict)
+        LIB_pd = LIB_pd.set_index('id')
         LIB_pd['topic'] = self.desc
-        LIB_pd['doc_type'] = self.__searchMeta['type']
-        LIB_pd['href'] = self.__searchMeta['href']
+        LIB_pd = LIB_pd.join(self.__searchMeta)
         self.LIB = LIB_pd
         
         return self
@@ -261,13 +266,10 @@ class RBPScraper():
 
         return num_pages
         
-    def __collectArticleMeta(self, article_id):
-        prefix_pat = r"^(.*)(?:/Library)"
-        prefix_url = re.search(prefix_pat, self.url)[1]
+    def __collectArticleMeta(self, article_id, prefix_url, session):
+
         page_url = prefix_url+self.__searchMeta.loc[article_id].href
-        
-        s = requests.Session()
-        page = s.get(page_url, cookies = self.cookies)
+        page = session.get(page_url, cookies = self.cookies)
         soup = BeautifulSoup(page.content, \
                              "html.parser", \
                              from_encoding='utf-8')
@@ -279,7 +281,7 @@ class RBPScraper():
             print("Cookies expired")
             self.cookies = self.cookieFormatter()
             
-            page = s.get(page_url, cookies = self.cookies)
+            page = session.get(page_url, cookies = self.cookies)
             soup = BeautifulSoup(page.content, \
                                  "html.parser", \
                                  from_encoding='utf-8')
@@ -319,14 +321,11 @@ class RBPScraper():
                      'subjects': subjects}
         return meta_dict
     
-    def __saveArticle(self, article_id):
-        
-        prefix_pat = r"^(.*)(?:/Library)"
-        prefix_url = re.search(prefix_pat, self.url)[1]
+    def __saveArticle(self, article_id, prefix_url, session):
+
         page_url = prefix_url+self.__searchMeta.loc[article_id].href
         
-        s = requests.Session()
-        page = s.get(page_url, cookies = self.cookies)
+        page = session.get(page_url, cookies = self.cookies)
         soup = BeautifulSoup(page.content, \
                              "html.parser", \
                              from_encoding='utf-8')
@@ -338,23 +337,23 @@ class RBPScraper():
             print("Cookies expired")
             self.cookies = self.cookieFormatter()
             
-            page = s.get(page_url, cookies = self.cookies)
+            page = session.get(page_url, cookies = self.cookies)
             soup = BeautifulSoup(page.content, \
                                  "html.parser", \
                                  from_encoding='utf-8')
         
         contentHTML = soup.find(id="content").prettify()
-        contentTXT = soup.find(id="content").get_text() 
+        # contentTXT = soup.find(id="content").get_text() 
             
         with open(f"{self.path}html/{article_id}.html", \
                   mode='wt', \
                   encoding='utf-8') as file:
             file.write(contentHTML)
                 
-        with open(f"{self.path}txt/{article_id}.txt", \
-                  mode='wt', \
-                  encoding='utf-8') as file:
-            file.write(contentTXT)
+        # with open(f"{self.path}txt/{article_id}.txt", \
+        #           mode='wt', \
+        #           encoding='utf-8') as file:
+        #     file.write(contentTXT)
         
         return None
     
@@ -372,7 +371,11 @@ class RBPScraper():
         try:
             self.LIB.to_csv(self.path + self.label + "LIB.csv")
         except AttributeError:
-            raise ValueError("LIB not found. Try calling articleScraper.")            
+            raise ValueError("LIB not found. Try calling articleScraper.")
+        
+        
+    # if directory does not exist:    
+    # os.makedirs(os.path.dirname("./test/"), exist_ok=True)            
 
 if __name__ == '__main__':
     pass
