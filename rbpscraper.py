@@ -2,7 +2,7 @@
 """
 March 25, 2022
 
-Class Definition for rbpScraper
+Class Definition for RBPScraper
 """
 import requests
 import re
@@ -372,11 +372,7 @@ class RBPScraper():
         try:
             self.LIB.to_csv(self.path + self.label + "LIB.csv")
         except AttributeError:
-            raise ValueError("LIB not found. Try calling articleScraper.")
-        
-        
-    # if directory does not exist:    
-    # os.makedirs(os.path.dirname("./test/"), exist_ok=True)            
+            raise ValueError("LIB not found. Try calling articleScraper.")            
 
 if __name__ == '__main__':
     pass
