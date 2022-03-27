@@ -146,8 +146,7 @@ class RBPScraper():
             count += 1
             if count % round(numIter/100) == 0:
                 print(f"{round(count*100/numIter)}% Complete")
-            
-        
+ 
         LIB_pd = pd.DataFrame(LIB_dict)
         LIB_pd = LIB_pd.set_index('id')
         LIB_pd['topic'] = self.desc
@@ -279,47 +278,47 @@ class RBPScraper():
                 .get_text()
         except AttributeError:
             print("Cookies expired")
-            self.cookies = self.cookieFormatter()
+            self.cookieFormatter()
             
             page = session.get(page_url, cookies = self.cookies)
             soup = BeautifulSoup(page.content, \
                                  "html.parser", \
                                  from_encoding='utf-8')
-  
-        title = soup.find(id="content") \
-                    .find("h1", class_="article") \
-                    .get_text() \
-                    .strip()
-                    
-        author = soup.find(id="content") \
-                     .find("p", class_="article-details")\
-                     .find("span", class_="writer") \
-                     .get_text()
-        
-        source = soup.find(id="content") \
-                     .find("p", class_="article-details") \
-                     .find("span", class_="publication") \
-                     .get_text()
-                     
-        date = soup.find(id="content") \
-                   .find("p", class_="article-details") \
-                   .get_text() \
-                   .split("\r\n")[-2] \
-                   .strip()
-        
-        artist_pattern = r'(?:Artist/)(.*)(?:">)'
-        aside = soup.find(id="content").find('aside').find_all('a')
-        subjects = [re.search(artist_pattern, str(x))[1] \
-                    for x in aside \
-                    if re.search(artist_pattern, str(x)) is not None]
-
-        meta_dict = {'id' : article_id,
-                     'title': title,
-                     'author': author,
-                     'source': source,
-                     'date': date,
-                     'subjects': subjects}
-        return meta_dict
+        finally:
+            title = soup.find(id="content") \
+                        .find("h1", class_="article") \
+                        .get_text() \
+                        .strip()
+                        
+            author = soup.find(id="content") \
+                         .find("p", class_="article-details")\
+                         .find("span", class_="writer") \
+                         .get_text()
+            
+            source = soup.find(id="content") \
+                         .find("p", class_="article-details") \
+                         .find("span", class_="publication") \
+                         .get_text()
+                         
+            date = soup.find(id="content") \
+                       .find("p", class_="article-details") \
+                       .get_text() \
+                       .split("\r\n")[-2] \
+                       .strip()
+            
+            artist_pattern = r'(?:Artist/)(.*)(?:">)'
+            aside = soup.find(id="content").find('aside').find_all('a')
+            subjects = [re.search(artist_pattern, str(x))[1] \
+                        for x in aside \
+                        if re.search(artist_pattern, str(x)) is not None]
+    
+            meta_dict = {'id' : article_id,
+                         'title': title,
+                         'author': author,
+                         'source': source,
+                         'date': date,
+                         'subjects': subjects}
+            return meta_dict
     
     def __saveArticle(self, article_id, prefix_url, session):
 
@@ -335,27 +334,27 @@ class RBPScraper():
                 .get_text()
         except AttributeError:
             print("Cookies expired")
-            self.cookies = self.cookieFormatter()
+            self.cookieFormatter()
             
             page = session.get(page_url, cookies = self.cookies)
             soup = BeautifulSoup(page.content, \
                                  "html.parser", \
                                  from_encoding='utf-8')
-        
-        contentHTML = soup.find(id="content").prettify()
-        # contentTXT = soup.find(id="content").get_text() 
-            
-        with open(f"{self.path}html/{article_id}.html", \
-                  mode='wt', \
-                  encoding='utf-8') as file:
-            file.write(contentHTML)
+        finally:
+            contentHTML = soup.find(id="content").prettify()
+            # contentTXT = soup.find(id="content").get_text() 
                 
-        # with open(f"{self.path}txt/{article_id}.txt", \
-        #           mode='wt', \
-        #           encoding='utf-8') as file:
-        #     file.write(contentTXT)
-        
-        return None
+            with open(f"{self.path}html/{article_id}.html", \
+                      mode='wt', \
+                      encoding='utf-8') as file:
+                file.write(contentHTML)
+                    
+            # with open(f"{self.path}txt/{article_id}.txt", \
+            #           mode='wt', \
+            #           encoding='utf-8') as file:
+            #     file.write(contentTXT)
+            
+            return None
     
     def writeLIB(self):
         '''
@@ -372,6 +371,7 @@ class RBPScraper():
             self.LIB.to_csv(self.path + self.label + "LIB.csv")
         except AttributeError:
             raise ValueError("LIB not found. Try calling articleScraper.")
+        return self
         
         
     # if directory does not exist:    
