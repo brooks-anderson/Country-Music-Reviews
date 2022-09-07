@@ -4,7 +4,9 @@ Textual analysis of country music reviews collected from [rocksbackpages.com](ht
 ### Data
 The data for this project is saved in the `./data` directory. The original scraped articles are not republished here. Instead, the data is presented as a bag-of-words with stop words removed. Metadata is provided in the additional `LIB` tables. A term list is provided in `VOCAB.csv`.
 
----
+### Analysis
++ [Country & Soul: Analyzing Trends in American Music Journalism](https://github.com/brooks-anderson/Country-Music-Reviews/blob/main/writeup_draft.pdf)
+
 ### Notebooks
 Rendered notebooks can be viewed with these links
 + [Digital Analytical Edition](http://nbviewer.org/github/brooks-anderson/Country-Music-Reviews/blob/main/Digital%20Analytical%20Edition.ipynb)
