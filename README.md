@@ -6,6 +6,6 @@ The data for this project is saved in the `./data` directory. The original scrap
 
 ---
 ### Notebooks
-Rendered notebooks can be view with these links
+Rendered notebooks can be viewed with these links
 + [Digital Analytical Edition](http://nbviewer.org/github/brooks-anderson/Country-Music-Reviews/blob/main/Digital%20Analytical%20Edition.ipynb)
 + [Textual Analysis](http://nbviewer.org/github/brooks-anderson/Country-Music-Reviews/blob/main/Textual%20Analysis.ipynb)
